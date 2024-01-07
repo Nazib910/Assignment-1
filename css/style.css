@@ -1,0 +1,35 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+
+.new-year-section {
+    width: 1600px;
+    height: 700px;
+    color: #fff;
+    font-family: Merriweather;
+    text-align: center;
+    background-image: url('../resources/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.new-year-section h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.new-year-section h5 {
+    padding-top: 100px;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.new-year-description {
+
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
