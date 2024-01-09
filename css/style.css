@@ -4,13 +4,17 @@
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 1600px;
+  /* height: 7335px; */
 }
 
 .main-container {
-  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-right: -300px;
 }
 
 /* New Year Section */
@@ -84,9 +88,6 @@ body {
 }
 
 /* Midnight Section */
-
-.midnight-section {
-}
 
 .midnight-img {
   display: flex;
@@ -404,7 +405,7 @@ body {
   border-radius: 16px;
   background-image: url(../resources/Rectangle\ 3.png);
   background-repeat: no-repeat;
-  padding: 5px;
+  margin: 5px;
 }
 .item-no-1:hover {
   cursor: pointer;
@@ -417,7 +418,7 @@ body {
   border-radius: 16px;
   background-image: url(../resources/Rectangle\ 4.png);
   background-repeat: no-repeat;
-  padding: 5px;
+  margin: 5px;
 }
 .item-no-2:hover {
   cursor: pointer;
@@ -429,7 +430,7 @@ body {
   border-radius: 16px;
   background-image: url(../resources/Rectangle\ 5.png);
   background-repeat: no-repeat;
-  padding: 5px;
+  margin: 5px;
 }
 .item-no-3:hover {
   cursor: pointer;
@@ -441,7 +442,7 @@ body {
   border-radius: 16px;
   background-image: url(../resources/Rectangle\ 6.png);
   background-repeat: no-repeat;
-  padding: 5px;
+  margin: 5px;
 }
 .item-no-4:hover {
   cursor: pointer;
@@ -453,7 +454,7 @@ body {
   border-radius: 16px;
   background-image: url(../resources/Rectangle\ 7.png);
   background-repeat: no-repeat;
-  padding: 5px;
+  margin: 5px;
 }
 .item-no-5:hover {
   cursor: pointer;
@@ -465,7 +466,7 @@ body {
   border-radius: 16px;
   background-image: url(../resources/Rectangle\ 8.png);
   background-repeat: no-repeat;
-  padding: 5px;
+  margin: 5px;
 }
 .item-no-6:hover {
   cursor: pointer;
@@ -489,7 +490,6 @@ body {
 }
 
 .email-icon {
- 
   padding-bottom: 20px;
   width: 150px;
   height: 150px;
@@ -532,7 +532,6 @@ body {
   border: none;
 }
 
-
 ::placeholder {
   color: rgba(7, 2, 17, 0.3);
   text-align: center;
@@ -557,6 +556,131 @@ body {
   font-weight: 600;
 }
 
-.subscribe-btn:hover{
+.subscribe-btn:hover {
   cursor: pointer;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: #070211;
+  width: 1900px;
+  height: 800px;
+  padding: 120px;
+}
+
+.address {
+  display: flex;
+  width: 1500px;
+  height: 250px;
+  padding-left: 140px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address-text {
+  width: 50%;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.icon-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.call {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-icon {
+  background-image: url(../resources/Call.png);
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.mail {
+  width: 220px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mail-icon {
+  background-image: url(../resources/Website.png);
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.social-icons {
+  display: flex;
+  margin-left: 50px;
+  width: 1500px;
+  height: 250px;
+  margin-left: 140px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon-no1 {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  background-image: url(../resources/Facebook.png);
+}
+.social-icon-no2 {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  background-image: url(../resources/Instagram.png);
+}
+.social-icon-no3 {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  background-image: url(../resources/Twitter.png);
+}
+.social-icon-no4 {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  background-image: url(../resources/Linkedin.png);
+}
+
+.last-text-container {
+  display: flex;
+  width: 1700px;
+  height: 250px;
+  padding-top: 140px;
+  justify-content: space-between;
+  align-items: center;
+}
+.all-rights {
+  width: 1500px;
+  height: 250px;
+  padding: 140px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.unsubscribe-text {
+  height: 250px;
+  padding-left: -300px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
 }
