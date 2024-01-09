@@ -131,7 +131,7 @@ body {
   margin-left: 20px;
 }
 
-.btn-join:hover{
+.btn-join:hover {
   cursor: pointer;
   border: solid #fff 1px;
 }
@@ -150,9 +150,42 @@ body {
   width: 1320px;
   height: 485px;
   flex-shrink: 0;
-  background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-  border: solid red 1px;
-  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-#FF0000, #FF000000
+.text-content {
+  padding-top: 100px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.red-text {
+  color: #f00;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+
+.red-btn {
+  display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #F00;
+color: #fff;
+border: none;
+margin-top: 50px;
+}
+
+.red-btn:hover {
+  cursor: pointer;
+}
